@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://kit.fontawesome.com/96721e8175.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="images\favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Apple (India)</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark container-fluid py-0 position-fixed">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand d-block d-lg-none justify-content-center" href="#"><img src="images\Apple_logo_white.png"
+          alt="logo"></a>
+
+      <div class="collapse navbar-collapse justify-content-center " id="navbarTogglerDemo01">
+        <a class="navbar-brand d-none d-lg-block d-xl-block d-xxl-block pt-0" href="#"><img
+            src="images\Apple_logo_white.png" alt="logo"></a>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mac</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">iPad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">iPhone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Watch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">AirPods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV & Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Only on Apple</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+        </ul>
+        <div class="svg d-none d-lg-block d-xl-block d-xxl-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="44" viewBox="0 0 16 44">
+            <path
+              d="M15.27 28.29l-4.06-4.06a6.113 6.113 0 0 0 1.35-3.83c0-3.39-2.76-6.15-6.15-6.15-3.39 0-6.15 2.76-6.15 6.15s2.76 6.15 6.15 6.15c1.43 0 2.75-.5 3.8-1.33l4.06 4.06 1-.99zM6.4 25.33a4.93 4.93 0 0 1-4.92-4.92c0-2.71 2.2-4.92 4.92-4.92s4.92 2.21 4.92 4.92c.01 2.71-2.2 4.92-4.92 4.92z"
+              fill="#fff"></path>
+          </svg>
+        </div>
+        <div class="svg d-none d-lg-block d-xl-block d-xxl-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="44" viewBox="0 0 14 44">
+            <path
+              d="M12.5 15h-1.81c-.28-1.86-2.04-3-3.69-3s-3.42 1.14-3.69 3H1.5c-.83 0-1.5.67-1.5 1.5v11c0 .83.67 1.5 1.5 1.5h11c.83 0 1.5-.67 1.5-1.5v-11c0-.83-.67-1.5-1.5-1.5zM7 13c1.18 0 2.43.75 2.7 2H4.3c.27-1.25 1.52-2 2.7-2zm6 14.5c0 .28-.22.5-.5.5h-11c-.28 0-.5-.22-.5-.5v-11c0-.28.22-.5.5-.5h11c.28 0 .5.22.5.5v11z"
+              fill="#fff"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="svg d-block d-xm-none d-lg-none d-xl-none d-xxl-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="44" viewBox="0 0 14 44">
+          <path
+            d="M12.5 15h-1.81c-.28-1.86-2.04-3-3.69-3s-3.42 1.14-3.69 3H1.5c-.83 0-1.5.67-1.5 1.5v11c0 .83.67 1.5 1.5 1.5h11c.83 0 1.5-.67 1.5-1.5v-11c0-.83-.67-1.5-1.5-1.5zM7 13c1.18 0 2.43.75 2.7 2H4.3c.27-1.25 1.52-2 2.7-2zm6 14.5c0 .28-.22.5-.5.5h-11c-.28 0-.5-.22-.5-.5v-11c0-.28.22-.5.5-.5h11c.28 0 .5.22.5.5v11z"
+            fill="#fff"></path>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- discount bar -->
+  <div class="discount">
+    <p class="text-center">Get 5% instant Cashback up to ₹6000 with qualifying HDFC Bank credit cards on orders over
+      ₹54900.‡<a href="#">Learn more<a></p>
+  </div>
+  <!-- cover image -->
+  <section>
+    <div class="img-1 position-relative">
+      <div class="img1-1">
+        <p class="text-1 text-center">iPhone 13</p>
+        <p class="text-2">Your new Superpower</p>
+      </div>
+      <div class="link">
+        <a id="more" href="">Learn More &#62</a><a id="buy" href="">Buy &#62</a>
+      </div>
+      <img class="img-fluid" src="images\asset 13.jpeg" alt="iPhone-1">
+    </div>
+  </section>
+
+  <section>
+    <div class="img-2">
+      <div class="img1-1">
+        <p class="text-1 text-center">iPhone 13 Pro</p>
+        <p class="text-2">Oh. So. Pro</p>
+      </div>
+      <div class="link">
+        <a id="more" href="">Learn More &#62</a><a id="buy" href="">Buy &#62</a>
+      </div>
+      <img class="img-fluid" src="images\asset 14.jpeg">
+    </div>
+  </section>
+
+  <section>
+    <div class="img-2">
+      <div class="img1-1">
+        <p class="text-2 text-center">Save on Mac or iPad.Plus get AirPods.</p>
+      </div>
+      <div class="link">
+        <a id="buy-2" href=""> Shop Now &#62</a>
+      </div>
+      <img class="img-fluid" src="images\asset 15.jpeg">
+    </div>
+  </section>
+  <!-- blockimages -->
+  <section class="row blocks">
+    <div class="col-md-6 ">
+      <img class="img-fluid" src="images\asset 16.jpeg" alt="">
+    </div>
+    <div class="col-md-6 ">
+      <img class="img-fluid`" src="images\asset 18.jpeg" alt="">
+    </div>
+    <div class="col-md-6 ">
+      <img class="img-fluid`" src="images\asset 20.png" alt="">
+    </div>
+    <div class="col-md-6 ">
+      <img class="img-fluid`" src="images\asset 22.jpeg" alt="">
+    </div>
+    <div class="col-md-6 ">
+      <img class="img-fluid`" src="images\asset 24.jpeg" alt="">
+    </div>
+    <div class="col-md-6 ">
+      <img class="img-fluid`" src="images\asset 25.jpeg" alt="">
+    </div>
+  </section>
+  <!-- carousel -->
+  <section class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+          aria-label="Slide 8"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid" src="images\carousal\asset 26.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Drama</h5>
+            <p>The epic series comes to an end</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 29.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Drama</h5>
+            <p>Family.It's a killer.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 31.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Animation</h5>
+            <p>Sometimes all you need is for everything to go wrong.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 33.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mystery</h5>
+            <p>Who do you trust when you can't trust yourself?
+            <div class=""></div>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 35.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Comedy</h5>
+            <p>20 Emmy&#174 nominations including Best Comedy.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 37.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Comedy</h5>
+            <p>She's about to change her fortune.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 39.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Documentary</h5>
+            <p>Unknown.Unexplained.Unbeleivable.Until now.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid" src="images\carousal\asset 41.jpeg" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Drama</h5>
+            <p>The race continues.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- instant bonus -->
+  <div class="container bonus">
+    <p>‡Instant cashback of 5% of order value is available for qualifying HDFC Bank Credit Cards & HDFC Credit Card EMI
+      only. Offer is limited to Maximum Instant Cashback Amount of ₹6000 per successful single order of ₹54900 and
+      above. Instant cashback is available for up to two orders per 90-day period with an eligible card. Any additional
+      orders may be cancelled. Card eligibility is subject to terms and conditions between you and your card-issuing
+      bank. Total transaction value is calculated after any trade-in credit or eligible discount is applied. Any
+      subsequent order adjustment(s) or cancellation(s) may result in instant cashback being recalculated, and any
+      refund may be adjusted to account for instant cashback reclaim, which may result in no refund being made to you.
+      Offer may be revised or withdrawn at any time without any prior notice. Terms & conditions apply. Offer cannot be
+      combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders
+      cannot be combined for instant cashback.</p>
+
+  </div>
+
+  <!-- footer -->
+  <div class="container pt-5 	d-none d-lg-block">
+    <hr>
+    <div class="row">
+      <div class="col">
+        <ul class="lastlist">
+          <li class="ulhead">Shop and Learn</li>
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Airpodes</li>
+          <li>TV & Home</li>
+          <li>Airtag</li>
+          <li>Accessories</li>
+          <li>Gift Cards</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="lastlist">
+          <li class="ulhead">Services</li>
+          <li>Apple Music</li>
+          <li>Apple TV+</li>
+          <li>Apple Arcade</li>
+          <li>iCloud</li>
+          <li>Apple One</li>
+          <li>Apple Books</li>
+          <li>Apple Podcasts</li>
+          <li>App Store</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="lastlist">
+          <li class="ulhead">Apple Store</li>
+          <li>Ways to Buy</li>
+          <li>Apple Trade In</li>
+          <li>Recycling Programme</li>
+          <li>Order Status</li>
+          <li>Shopping Help</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="lastlist">
+          <li class="ulhead">For Business</li>
+          <li>Apple and Business</li>
+          <li class="ulhead">For Education</li>
+          <li>Apple and Education</li>
+          <li>Shop for Education</li>
+          <li>Shop for University</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="lastlist">
+          <li class="ulhead">Apple Values</li>
+          <li>Accessibility</li>
+          <li>privacy</li>
+          <li>Supplier Responsibility</li>
+          <li class="ulhead">About Apple</li>
+          <li>Newsroom</li>
+          <li>Apple Leadership</li>
+          <li>Career Opportunities</li>
+          <li>Investors</li>
+          <li>Ethics & Compliance</li>
+          <li>Events</li>
+          <li>Contact Apple</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- accordion -->
+  <div class="accordion accordion-flush  d-lg-none" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          <p class="ulhead">Shop and Learn</p>
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Store</li>
+            <li>Mac</li>
+            <li>iPad</li>
+            <li>iPhone</li>
+            <li>Watch</li>
+            <li>Airpodes</li>
+            <li>TV & Home</li>
+            <li>Airtag</li>
+            <li>Accessories</li>
+            <li>Gift Cards</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          <p class="ulhead">Services</p>
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Apple Music</li>
+            <li>Apple TV+</li>
+            <li>Apple Arcade</li>
+            <li>iCloud</li>
+            <li>Apple One</li>
+            <li>Apple Books</li>
+            <li>Apple Podcasts</li>
+            <li>App Store</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          <p class="ulhead">Apple Store</p>
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Ways to Buy</li>
+            <li>Apple Trade In</li>
+            <li>Recycling Programme</li>
+            <li>Order Status</li>
+            <li>Shopping Help</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFour">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          <p class="ulhead">For Business</p>
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Apple and Business</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingFive">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          <p class="ulhead">For Education</p>
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Apple and Education</li>
+            <li>Shop for Education</li>
+            <li>Shop for University</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingSix">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+          <p class="ulhead">Apple values</p>
+        </button>
+      </h2>
+      <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Accessibility</li>
+            <li>privacy</li>
+            <li>Supplier Responsibility</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingSeven">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+          <p class="ulhead">About Apple</p>
+        </button>
+      </h2>
+      <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <ul>
+            <li>Newsroom</li>
+            <li>Apple Leadership</li>
+            <li>Career Opportunities</li>
+            <li>Investors</li>
+            <li>Ethics & Compliance</li>
+            <li>Events</li>
+            <li>Contact Apple</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container retailer">
+      More ways to shop: &nbsp;<span style="color:blue">Find a retailer</span>&nbsp;near you. Or call 000800 040 1966.
+    </div>
+    <hr class="lasthr">
+    <div class="container bottom d-flex">
+      <p>Copyright © 2022 Apple Inc. All rights reserved.</p>
+      <ul class="d-flex">
+        <li>Privacy Policy</li>
+        <li>|</li>
+        <li>Terms of Use</li>
+        <li>|</li>
+        <li>Sales Policy</li>
+        <li>|</li>
+        <li>Legal</li>
+        <li>|</li>
+        <li>Site map</li>
+      </ul>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
